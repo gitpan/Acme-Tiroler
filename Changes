@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme::Tiroler
 
+0.02  Di Okt 23 18:24:42 CEST 2007
+    - more realistic example program (thanks pepl)
+
 0.01  Di Okt 23 18:24:42 CEST 2007
     - original version
 

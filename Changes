@@ -1,31 +1,22 @@
----
-global:
-  name: Acme-Tiroler
-releases:
-  - author: 'Marcel Gruenauer <marcel@cpan.org>'
-    changes:
-      - Changed Changes file to YAML style
-      - added Twitter step to .shipit
-      - added autp_install and process_templates to Makefile.PL
-      - converted Acme::Tiroler to use generated pod
-      - updated MANIFEST
-      - updated MANIFEST
-      - updated t/perlcriticrc
-      - updated MANIFEST
-      - updated MANIFEST
-    date: 2008-02-25T16:28:51Z
-    tags:
-      - NEWFEATURE
-    version: 0.03
-  - author: 'Marcel Gruenauer <marcel@cpan.org>'
-    changes:
-      - more realistic example program (thanks pepl)
-    date: 2007-10-23T18:24:42+02:00
-    tags: []
-    version: 0.02
-  - author: 'Marcel Gruenauer <marcel@cpan.org>'
-    changes:
-      - original version
-    date: 2007-10-23T18:24:42+02:00
-    tags: []
-    version: 0.01
+Revision history for Perl extension Acme-Tiroler
+
+0.04  Thu Jul 24 17:20:30 CEST 2008 (Marcel Gruenauer <marcel@cpan.org>)
+     - Changed dist style and Changes back to standard. People didn't like it -
+       the nail that sticks out gets hammered down.
+     - Added standard test files; this will also help with CPANTS.
+
+0.03  Thu, 29 May 2008 11:59:50 -0000 (Marcel Gruenauer <marcel@cpan.org>)
+     - Changed Changes file to YAML style
+     - added Twitter step to .shipit
+     - added autp_install and process_templates to Makefile.PL
+     - converted Acme::Tiroler to use generated pod
+     - updated MANIFEST
+     - updated t/perlcriticrc
+     - .shipit: fixed svk.tagpattern
+     - tags: NEWFEATURE
+
+0.02  Tue, 23 Oct 2007 18:24:42 +0200 (Marcel Gruenauer <marcel@cpan.org>)
+     - more realistic example program (thanks pepl)
+
+0.01  Tue, 23 Oct 2007 18:24:42 +0200 (Marcel Gruenauer <marcel@cpan.org>)
+     - original version

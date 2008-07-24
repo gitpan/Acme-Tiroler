@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme-Tiroler
 
+0.05  Thu Jul 24 18:55:07 CEST 2008 (Marcel Gruenauer <marcel@cpan.org>)
+     - build_requires Test::Compile
+
 0.04  Thu Jul 24 17:20:30 CEST 2008 (Marcel Gruenauer <marcel@cpan.org>)
      - Changed dist style and Changes back to standard. People didn't like it -
        the nail that sticks out gets hammered down.

@@ -8,6 +8,7 @@ perl_version '5.006';
 requires 'Filter::Simple';
 
 build_requires 'Test::More' => '0.70';
+build_requires 'Test::Compile';
 
 auto_install;
 auto_include;

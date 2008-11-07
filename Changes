@@ -1,5 +1,9 @@
 Revision history for Perl extension Acme-Tiroler
 
+0.06  Fri Nov  7 14:04:19 CET 2008 (Marcel Gruenauer <marcel@cpan.org>)
+     - changed the synopsis to contain more realistic examples (thanks pepl;
+       rt.cpan.org #30260)
+
 0.05  Thu Jul 24 18:55:07 CEST 2008 (Marcel Gruenauer <marcel@cpan.org>)
      - build_requires Test::Compile
 

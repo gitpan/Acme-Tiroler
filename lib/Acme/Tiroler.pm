@@ -3,7 +3,7 @@ package Acme::Tiroler;
 use strict;
 use warnings;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use Filter::Simple;
 
@@ -37,7 +37,11 @@ Acme::Tiroler - write code like a tyrolean says it
     yoosh shtrict odr
     yoosh warnings odr
 
-    sagsch "hallo tirol, hallo manda\n" odr
+    sagsch "griaß di tirol, griaß enk mandr\n" odr
+
+    sagsch "bischt a tiroler, bischt a mensch\n" odr
+
+    sagsch "tirol isch lei oans\n" odr
 
     mei $a isch 7 odr
     sagsch "$a\n" odr
